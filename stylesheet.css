@@ -229,7 +229,7 @@ header h5{
 
 }
 
-.row-halves .col{
+.row-halves .col, .col2, .col3{
     width: 49%;
 
 }
