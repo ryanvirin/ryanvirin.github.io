@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mijn Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+</head>
+<body>
+
+
+<script>
+
+    alert("Welkom op mijn portfolio website")
+
+</script>
+
+
+<aside>
+    <nav>
+        <img src="ryan%20groot.jpg" alt="Foto van mezelf">
+        <a href="#home"><i class="material-icons md-36">home</i>
+            <p>home</p>
+        </a>
+
+        <a href="#About"><i class="material-icons md-36">face</i>
+            <p>Over mij</p>
+        </a>
+
+        <a href="#Folio"><i class="material-icons md-36">image</i>
+            <p>Foto's</p>
+        </a>
+
+        <a href="#contact"><i class="material-icons md-36">mail</i>
+            <p>contact</p>
+        </a>
+
+        <a href="#project"><i class="material-icons md-36">assignment_turned_in</i>
+            <p>project</p>
+        </a>
+
+        <a href="CV%20Ryan.docx" download><i class="material-icons md-36">person</i>
+            <p>Mijn CV</p>
+        </a>
+    </nav>
+
+</aside>
+
+<nav class="mobile-nav">
+
+    <a href="#home">Home</a>
+    <a href="#About">About</a>
+    <a href="#Folio">Folio</a>
+    <a href="#contact">Contact</a>
+    <a href="#project">Project</a>
+    <a href="CV%20Ryan.docx">Mijn CV</a>
+
+</nav>
+
+<main>
+    <header class="home" id="home"><br><br>
+        <h1>Ryan Choennie</h1>
+        <h5>Web Developer</h5>
+        <img src="code.jpg" alt="Achtergrond foto van home">
+
+    </header>
+
+
+    <section class="About" id="About">
+
+        <h2>Wie ben ik?</h2>
+        <p>
+            <span>Hallo,</span> <br>Mijn naam is Ryan Virin Choennie en ik ben een
+            Web developer. Ik ben 17 jaar oud en woonachtig in Rotterdam. Ik heb ook nog 2 broers.
+            Ik zit op het Techniek College Rotterdam in het 1e leerjaar van het MBO en ik volg de opleiding Applicatie/Mediaontwikkelaar.
+            Ik ben heel erg leergierig en flexibel. In mijn vrije tijd vind ik het leuk om te netflixen of om uit te
+            gaan.<br>
+
+        </p>
+
+        <p>
+
+            Aan de linkerkant ziet u mijn CV. Klik erop om mijn CV te downloaden.
+
+        </p>
+
+
+        <p>
+            <br>Ik heb ervaring met HTML, CSS, Javascript en PHP.<br>
+
+        </p>
+
+        <h3>My skills</h3>
+        <p>PHP</p>
+        <div class="container">
+            <div class="skills PHP">50%</div>
+        </div>
+
+        <p>HTML 5</p>
+        <div class="container">
+            <div class="skills html">100%</div>
+        </div>
+
+        <p>CSS</p>
+        <div class="container">
+            <div class="skills css">100%</div>
+        </div>
+
+        <p>Javascript</p>
+        <div class="container">
+            <div class="skills Javascript">75%</div>
+        </div>
+
+    </section>
+
+
+    <section class="Folio" id="Folio">
+
+        <div class="tekst">
+            <h2>Foto's</h2>
+        </div>
+
+        <div class="row-halves">
+            <div class="col">
+                <img src="ouders.jpg" alt="Foto van ouders">
+                <h3>Ouders</h3>
+                <p>
+                    Hierboven zie je een foto van mijn ouders.
+                </p>
+            </div>
+        </div>
+
+            <div class="row-halves">
+                <div class="col2">
+                    <img src="broers2.jpg" alt="Foto van Avi en Shivano en ik">
+                    <h3>Mijn broers</h3>
+                    <p>
+                        Hierboven zie je een foto van mijn broers en ik het Barcalona stadion.
+                    </p>
+                </div>
+            </div>
+
+
+                <div class="row-halves">
+                    <div class="col3">
+                        <img src="geslaagd.jpg" alt="Mijn VMBO diploma behaald">
+                        <h3>Ikzelf</h3>
+                        <p>Hierboven zie je een foto van de dag dat ik mijn VMBO-tl diploma heb behaald.</p>
+                    </div>
+                </div>
+    </section>
+
+    <section class="contact" id="contact">
+
+        <h2>Contact</h2>
+        <div class="gegevens">
+            <form action="">
+                <label for="name">Volledige Naam</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email" required>
+                <label for="message">bericht</label>
+                <textarea name="message" id="message"
+                          style="height:200px"></textarea>
+                <input type="submit" name="Submit" value="Submit" onClick="Confirm(this.form)">
+
+            </form>
+        </div>
+
+        <script type="text/javascript">
+            function Confirm(form){
+                alert("Je bericht is verzonden, dankjewel!");
+                form.submit();
+            }
+        </script>
+
+
+
+    </section>
+
+
+    <section class="project" id="project">
+
+        <div>
+            <table id="tabel">
+                <caption>Projecten</caption>
+                <thead>
+                <tr>
+                    <th>Periode</th>
+                    <th>Opdrachten</th>
+                    <th>Gebruikte technieken</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>opdracht 1 t/m 8, potofolio</td>
+                    <td>HTML5 en CSS3</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+
+
+</main>
+
+<footer>
+    <section class="top-bar">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+
+    </section>
+
+
+    <section class="bottom-bar">
+        <p>&copy 2018 | All rights reserved</p>
+
+
+    </section>
+
+
+</footer>
+
+
+</body>
+</html>
