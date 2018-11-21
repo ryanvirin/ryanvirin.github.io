@@ -45,8 +45,8 @@ img{
 aside{
     position: fixed;
     background: #222;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 120px;
     height: 100%;
     overflow: no-content;
@@ -87,7 +87,7 @@ aside a:hover{
 }
 
 aside nav a:nth-child(2){
-    background: #000;
+    background: #222;
 
 }
 
@@ -95,6 +95,10 @@ aside nav a:nth-child(2):hover{
     background: #b2b2b2;
     color: #222;
 
+}
+
+aside nav a:active {
+    color: #222;
 }
 
 main{
@@ -109,6 +113,10 @@ header{
     text-align: center;
     letter-spacing: 2px;
 
+}
+
+header p{
+    color: white;
 }
 
 header h1{
