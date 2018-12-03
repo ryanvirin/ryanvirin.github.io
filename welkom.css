@@ -40,7 +40,7 @@ body{
     color: white;
     margin-top: 10px;
     background: black;
-    animation: text 5s 1;
+    animation: text 4s 1;
 }
 
 @keyframes text {
