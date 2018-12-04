@@ -1,5 +1,3 @@
-alert("Welkom op mijn portfolio website")
-
 function Confirm(form){
     alert("Je bericht is verzonden, dankjewel!");
     form.submit();
