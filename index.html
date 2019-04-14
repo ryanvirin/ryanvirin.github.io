@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Welkom</title>
-    <link href="welkom.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>Text Typing Effect</title>
+    <link rel="stylesheet" href="welkom.css">
 </head>
 <body>
 
-<div class="container">
-    <span class="text1">Welkom op</span>
-    <span class="text2">mijn website</span>
+<div id="text">
+
 </div>
-    
-      <script>
+
+<script type="text/javascript">
+    var i=0,text;
+    text = "Welkom op mijn website ..."
+
+    function typing() {
+        if(i<text.length){
+            document.getElementById("text").innerHTML += text.charAt(i);
+            i++;
+            setTimeout(typing,100);
+        }
+    }
+    typing();
+</script>
+
+
+<script>
         let timer = setTimeout(function() {
             window.location='welkom.html'
-        }, 5000);
+        }, 3500);
     </script>
-
-
-
 
 </body>
 </html>
