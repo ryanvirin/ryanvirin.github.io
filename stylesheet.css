@@ -193,7 +193,7 @@ header h5{
 }
 
 .PHP{
-    width: 50%;
+    width: 90%;
 
 }
 
@@ -207,9 +207,13 @@ header h5{
 
 }
 
-.Javascript{
+.javascript{
     width: 75%;
 
+}
+
+.wordpress{
+    width: 50%;
 }
 
 .tekst{
